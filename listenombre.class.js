@@ -1,3 +1,6 @@
+/**
+ * Créer un objet contenant une liste déroulante d'entier entre min et max
+ */
 class ListeNombre {
     constructor(parent,min,max) {
         let select=document.createElement("select");

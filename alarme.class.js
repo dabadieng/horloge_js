@@ -1,3 +1,6 @@
+/**
+ * une alarme est une div avec un balise audio et 3 balise select pour régler l'heure de l'alarme
+ */
 class Alarme {
     constructor(parent,audiosrc) {
         let alarme = document.createElement("div");
